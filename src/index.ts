@@ -1,4 +1,3 @@
-export default ztlsl;
  
 /**
  * A dig function that takes any object with a nested structure and a path,
@@ -9,7 +8,8 @@ export default ztlsl;
  * @param {boolean} [shouldThrow=false] - Optionally throw an exception when nothing found
  *
  */
-function ztlsl(source: any, path: string, shouldThrow: boolean = false) {
+
+const ztlsl = (source: any, path: string, shouldThrow: boolean = false) => {
   if (source === null || source === undefined) {
     return undefined;
   }
@@ -61,3 +61,5 @@ function splitPath(str: string) {
       .filter((x) => !!x)
   );
 }
+
+export default ztlsl
