@@ -1,6 +1,6 @@
 {
   "name": "@zhoululu0807/ztlsl",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/ztlsl.umd.js",
   "module": "dist/ztlsl.es.js",
   "types": "dist/index.d.ts",
