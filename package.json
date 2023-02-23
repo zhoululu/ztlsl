@@ -1,6 +1,6 @@
 {
   "name": "@zhoululu0807/ztlsl",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/ztlsl.umd.js",
   "module": "dist/ztlsl.es.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,6 @@
       "require": "./dist/ztlsl.umd.js"
     }
   },
-  "type": "module",
   "files": [
     "dist",
     "README.md",
