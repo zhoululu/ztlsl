@@ -6,7 +6,12 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, './src/index.ts'),
       name: 'ztlsl',
-      fileName: (format: string) => `ztlsl.${format}.js`
+      formats: ['cjs', 'es', 'umd'],
+      fileName: (format: string) => {
+        if(format === 'cjs') return 'ztlsl.cjs'
+        if(format === 'es') return 'ztlsl.mjs'
+        return 'ztlsl.js'
+      }
     }
   }
 })
