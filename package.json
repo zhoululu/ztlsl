@@ -1,13 +1,13 @@
 {
   "name": "@zhoululu0807/ztlsl",
-  "version": "1.0.6",
-  "main": "dist/ztlsl.cjs",
+  "version": "1.0.7",
+  "main": "dist/ztlsl.umd.js",
   "module": "dist/ztlsl.mjs",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/ztlsl.mjs",
-      "require": "./dist/ztlsl.cjs"
+      "require": "./dist/ztlsl.umd.js"
     }
   },
   "files": [
